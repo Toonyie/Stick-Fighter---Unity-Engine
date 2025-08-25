@@ -1,0 +1,74 @@
+{
+    "name": "Inputs_2P",
+    "maps": [
+        {
+            "name": "BaseCombat2",
+            "id": "3b3b5a33-53f5-402c-a90e-4430bad74836",
+            "actions": [
+                {
+                    "name": "Jump1",
+                    "type": "Button",
+                    "id": "6a9c8c6d-a0e8-4151-a12b-146f67da6472",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Kick2",
+                    "type": "Button",
+                    "id": "3aaf60e8-5a28-4d43-a33b-4c3435fc9bd2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Punch2",
+                    "type": "Button",
+                    "id": "58e4ec70-ed9b-4ad7-abf2-72365b8bb20e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "38f715b9-dde8-4466-b98a-f5456e39e230",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "41e6ad0e-477e-41bf-acca-96657f2fca5a",
+                    "path": "<Keyboard>/u",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Kick2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d2754de1-b4ee-478f-bfae-e301782f1261",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Punch2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
